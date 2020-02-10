@@ -1,0 +1,102 @@
+body {
+    margin-top: 5%;
+    padding: 7px;
+    text-align: center;
+    box-shadow: 2px 3px 4px 4px #ccc;
+    border: 2px #eee;
+    box-sizing: content-box;
+    height: auto;
+    padding-bottom: 30%;
+}
+
+div.row {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+div.col-md-3 {
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+form div.col-md-3 {
+    margin-left: 0;
+}
+
+form.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apptitle {
+    margin: 1rem 0;
+    color: deepskyblue;
+    font-family: grandstander;
+}
+
+.todolist {
+    padding-left: 0;
+}
+
+.todolist .todoitem {
+    position: relative;
+    margin-bottom: 0.25rem;
+    padding: 0.5rem 2rem 0.5rem 0.5rem;
+    border-top: 1px solid #ccc;
+}
+
+.todolist .todoitem.done .form-check-label {
+    color: rgb(47, 255, 57);
+    text-decoration: line-through;
+}
+
+.todolist .todoitem.highlight {
+    border-color: #ff2968;
+    background-color: #ff8fb0;
+}
+
+.todolist .todoitem.highlight:last-child {
+    border-color: #ff2968;
+}
+
+.todolist .todoitem:last-child {
+    border-bottom: 1px solid #ccc;
+}
+
+.todolist .todoitem .btn-danger {
+    position: absolute;
+    top: 0.25rem;
+    right: 0.5rem;
+}
+
+.todolist .todoitem .form-check-label {
+    width: 100%;
+}
+
+.todolist .todoitem .form-check-label .form-check-input {
+    margin-right: 1rem;
+}
+
+.filtre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid lightblue;
+    border-radius: 30px;
+    width: 70%;
+    margin: 60px auto;
+}
+
+.btn-primary {
+    margin: 20px;
+}
+
+.btn-success {
+    margin: 20px;
+}
+
+.btn-dark {
+    margin: 20px;
+}
